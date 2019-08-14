@@ -1,0 +1,150 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+background-image: url("../img/knight001.jpeg");
+background-size: auto 100%;
+background-repeat: no-repeat;
+background-position: 12% 50%;
+height: 100%;
+font-family: 'Numans', sans-serif;
+background-color: #171614;
+}
+
+.container{
+height: 100%;
+align-content: center;
+}
+
+.card{
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(132,127,124,0.5) !important;
+}
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #FFC312;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #FFC312;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+
+.login, .signup {
+	display: none;
+	position:absolute;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%);
+	transform: translateY(-50%);
+
+}
+
+h1 {
+	color:white;
+	font-size: 4em;
+	text-align:center;
+	/*border: 1px solid white;*/
+}
+
+.butn {
+	width: 200px;
+	height: 70px;
+	border: 1px solid white;
+	background: lightgrey;
+	margin: 0 20px;
+	cursor: pointer;
+	color:white;
+	/*border: 1px solid red;*/
+	margin-top: 20px;
+	text-align:center;
+	line-height:70px;
+	font-size:2em;
+
+}
+.butn:hover {
+	background: darkgrey;
+	color: lightgrey;
+
+}
+
+
+
+.container {
+	position:relative;
+}
+
+.ctaholder {
+	display:flex;
+}
+.ctaparent {
+	width: 40vw;
+	margin-left: 40vw;
+	height: 40vh;
+	display:flex;
+	flex-direction: row;
+	justify-content:center;
+	align-items:center;
+	/*border: 1px solid gold;*/
+	padding-top: 12vh;
+}

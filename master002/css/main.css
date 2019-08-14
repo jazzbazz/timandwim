@@ -1,0 +1,84 @@
+h1 {
+	text-align: center;
+	border: 1px solid black;
+	display:block;
+	margin:0 auto;
+	font-size: 3vw;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.chatwrapper {
+	min-height: 60vh;
+	width: 90vw;
+	margin: 0 auto;
+	border:1px solid blue;
+
+}
+
+.chat, .usersonline {
+	height: 100%;
+	border: 1px solid gold;
+}
+
+.chat {
+	flex-basis: 67%;
+}
+
+.chatroom {
+	position:relative;
+	background: lightgrey;
+	width: 100%;
+	height: auto;
+	padding-top: 40px;
+	display:none;
+}
+#closechat {
+	width: 60px;
+	height: 60px;
+	border: 1px solid red;
+	position : absolute;
+	right: 0;
+	top: 0;
+	font-size: 4em;
+	background: red;
+	line-height:60px;
+	text-align:center;
+
+}
+.messages {
+	margin: 20px auto !important;
+	width: 80%;
+	min-height: 20vh;
+	margin: 5px auto;
+	height: 70%;
+	background-color: grey;
+	border: 1px solid gold;
+}
+.ownmessage {
+	width: 80%;
+	margin: 5px auto;
+	height: 20%;
+}
+
+
+.usersonline {
+	flex-basis: 33%;
+}
+
+.bggrey {
+	background-color: #6c757d !important;
+}
+
+.sender {
+	
+}
+.enterchat, .closechat {
+	height: 64px;
+	/*verschil tussen margin succes en danger ?*/
+	margin-top: 0 !important;
+}
+
+.closechat {
+	display:none;
+}
